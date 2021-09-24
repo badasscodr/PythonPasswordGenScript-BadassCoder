@@ -24,8 +24,8 @@ for char in range(1, nr_numbers+1):
 passwordList.extend(password)
 random.shuffle(passwordList)
 
-print(passwordList)
-#password = ' '.join(map(str, passwordList))
+#print(passwordList)
+password = ' '.join(map(str, passwordList))
 finalPassword = password.replace(" ", "")
 print(
   f'''  
